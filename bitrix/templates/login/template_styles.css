@@ -91,6 +91,7 @@ body {
 	overflow: hidden;
 	width: 100%;
 	background: url(images/auth_background.jpg) no-repeat center;
+	background-size: cover;
 }
 
 .log-bottom-cell,
@@ -123,7 +124,7 @@ body {
 	display: block;
 	overflow: hidden;
 	background-color: #fff;
-	opacity: 90%;
+	opacity: 85%;
 	border-radius: var(--ui-border-radius-3xl, 4px);
 	max-width: 705px;
 	position: relative;
