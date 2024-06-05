@@ -38,7 +38,7 @@ $APPLICATION->ShowPanel();
 <table class="log-main-table">
 	<tr>
 		<td class="log-top-cell">
-			<a class="main-logo main-logo-<?if (LANGUAGE_ID === "ru"):?>ru<?elseif(LANGUAGE_ID === "ua"):?>ua<?else:?>en<?endif?>" href="/" title="<?=GetMessage("BITRIX24_TITLE")?>"></a>
+			<a class="main-logo main-logo-sd" href="/"></a>
 		</td>
 	</tr>
 	<tr>
