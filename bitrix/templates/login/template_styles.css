@@ -44,7 +44,7 @@ html {
 }
 
 body {
-	background: #2fc6f7;
+	background: #ffffff;
 	box-sizing: border-box;
 	height: 100%;
 	font-family: var(--intranet-pub-font-family-primary);
@@ -90,7 +90,7 @@ body {
 	height: 100%;
 	overflow: hidden;
 	width: 100%;
-	background: url(images/bg_clouds_3.png) no-repeat center 69px;
+	background: url(images/auth_background.jpg) no-repeat center;
 }
 
 .log-bottom-cell,
@@ -123,6 +123,7 @@ body {
 	display: block;
 	overflow: hidden;
 	background-color: #fff;
+	opacity: 90%;
 	border-radius: var(--ui-border-radius-3xl, 4px);
 	max-width: 705px;
 	position: relative;
@@ -914,7 +915,7 @@ a.login-create-promo-cod-link {
 }
 
 .login-btn {
-	background: #2fc6f7;
+	background: #6B9CDF;
 	color: #fff;
 	display: inline-block;
 	outline: none !important;
