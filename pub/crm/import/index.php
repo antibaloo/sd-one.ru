@@ -21,7 +21,7 @@ fwrite($hd, print_r($arFields,1));
 $leadId = $lead->Add($arFields,true,array('CURRENT_USER'=>1));
 if ($leadId) fwrite($hd, "Создан лид с идентификатором: ".$leadId."\n");
 else fwrite($hd, "При создании лида произошла ошибка: ".$lead->LAST_ERROR."\n");
-
+fwrite($hd,"-----------------------------------------------------------------\n");
 fclose($hd);
 echo "OK";
 ?>
