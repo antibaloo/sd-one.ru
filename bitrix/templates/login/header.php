@@ -38,10 +38,10 @@ $APPLICATION->ShowPanel();
 <table class="log-main-table">
 	<tr>
 		<td class="log-top-cell">
-			<a class="main-logo main-logo-sd" href="/"></a>
+		<a class="main-logo main-logo-sd" href="/"></a>
 		</td>
 	</tr>
 	<tr>
 		<td class="log-main-cell">
-			<div class="log-popup-wrap <?echo $APPLICATION->ShowProperty("popup_class","")?>" id="login-popup-wrap">
+			<div class="log-popup-wrap <? $APPLICATION->ShowProperty("popup_class","") ?>" id="login-popup-wrap">
 				<div class="log-popup" id="login-popup">
