@@ -1,7 +1,7 @@
 function sendMessage(params) {
     auth = btoa(params.User+':'+params.Passwd);
     request = new HttpRequest();
-    json_payload = JSON.stringify({Id:params.Id, Value:params.Value, subject:params.Subject, message:params.Message});
+    json_payload = JSON.stringify({id:params.Id, value:params.Value, subject:params.Subject, message:params.Message});
     request.addHeader('Authorization:Basic '+auth);
     response = request.post(params.To, json_payload);
     if (response !== "OK") {
