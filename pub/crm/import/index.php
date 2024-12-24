@@ -53,7 +53,7 @@ if (\Bitrix\Main\Loader::includeModule('crm')) {
 	} else if ($arResult['type'] == 'service'){
 		switch ($arResult['interval']){
 			case 'regular':
-				$title = "Регулярное техническое обслуживание";
+				$title = $arResult['eventValue'] == 1 ? "Предупреждение о регилярном ТО (через 50 моточасов)" : "Регулярное техническое обслуживание";
 				$comments = $arResult['description'];
 				break;
 			case "weekly":
