@@ -66,8 +66,8 @@ if (\Bitrix\Main\Loader::includeModule('crm')) {
 				break;
 		}
 	} else {
-		$title = "Неизвестный тип сообщения";
-		$comments = "Свяжитесь с администратором системы мониторинга!";
+		$title = "Неизвестный тип сообщения. Свяжитесь с администратором системы мониторинга!";
+		$comments =  $arResult['description'];
 	}
 	// Создаем заявку
 	$leadFactory = \Bitrix\Crm\Service\Container::getInstance()->getFactory(\CCrmOwnerType::Lead);
